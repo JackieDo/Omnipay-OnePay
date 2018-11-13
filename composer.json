@@ -1,0 +1,36 @@
+{
+    "name": "jackiedo/omnipay-onepay",
+    "description": "OnePay gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "onepay",
+        "noidia",
+        "quocte",
+        "purchase"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jackie Do",
+            "email": "anhvudo@gmail.com"
+        }
+    ],
+    "require": {
+        "omnipay/common": "~3.0",
+        "jackiedo/omnipay-validator": "~1.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\OnePay\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
